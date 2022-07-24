@@ -1,0 +1,92 @@
+.body{
+
+  background-image: url("../img/new1.jpg");
+  background-repeat: repeat-y;
+  font-family: 'Merriweather', serif;
+ font-style: italic;
+}
+.heading{
+      color: lime;
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM2a1VIntC06eu7No6lpnLdYIy0HqZejvZgQ&usqp=CAU"); */
+     font-family: 'Merriweather', serif;
+    font-style: italic;
+    display:flex;
+    font-size:50px;
+    justify-content: center;
+    }
+.heading h2{
+        padding-top: 15px;
+      }
+    .fa-chess{
+      color:lime;
+      }
+/* .images{
+  display: inline-flex;
+  padding-top:40px;
+  padding-left: 100px;
+  }
+  .images img{
+    border:5px solid lime;
+    border-radius: 50%;
+    border-style: hidden;
+  } */
+  .name{
+    display: inline-flex;
+    padding-left: 100px;
+    color: white;
+  }
+  .name p{
+    font-size: 20px;
+    justify-content: center;
+    border-spacing: inherit;
+    padding:40px 10px 40px 10px;
+    border-style:groove;
+    border-radius: 70%;
+  border:1px solid aqua;
+  }
+  .name h4{
+  padding-left: 400px;
+    padding-top: 50px;
+  }
+  .footer-body{
+    position:absolute;
+    margin:auto;
+    padding:3px 10px 3px 10px;
+    right:0;
+    left:0;
+    bottom:0;
+    /* background-color: #e8ebed; */
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoC-nK2HvGBdOT6uE8AMnl-Ip4AD1zie9vgw&usqp=CAU");
+    background-position:top;
+    background-repeat: no-repeat; */
+  }
+  .footer-content{
+    color: lime;
+    margin: auto;
+  }
+.footers{
+  display:inline-flex;
+  list-style: none;
+  padding-left: 40px;
+}
+.footers i{
+    font-size: 20px;
+}
+.footers a{
+    color:lime;
+}
+.footers a:hover{
+    color:aquamarine;
+}
+.fa-solid{
+color:#7FFF00;
+}
+#email{
+  padding-bottom: 20px;
+padding-left:0px;
+}
+ #contact{
+   padding-left:700px;
+   right:0;
+  text-align: right;
+}
